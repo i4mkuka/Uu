@@ -1,8 +1,8 @@
 module.exports = {
   bot: {
-    token: "", //Bot Token from https://discord.com/developers/applications
-    prefix: "!", //Bot Prefix
-    owners: ["740947753135243354", "767726828311543820"], //Bot Onwer ID
+    token: "ODU3NjkzMjY2MzIxMzQyNDY1.GyIz7Y.tvJWLpVUPWaHr-Kul_qjjoQYnnfBwLHWyB-zx4", //Bot Token from https://discord.com/developers/applications
+    prefix: "$", //Bot Prefix
+    owners: ["839489188373987385", "648473315437969408"], //Bot Onwer ID
     maintenance: false,
     mongourl:
       "", //https://mongodb.com/cloud/atlas/register
@@ -14,18 +14,18 @@ module.exports = {
       "You got me out on the **{guild}** server, sorry if there's a mistake on me"
   },
   status: {
-    stats: "", //Status Bot <idle, online, dnd , invisible>
-    type: "", //Playing Bot <PLAYING, WATCHING , and others>
-    name: "" //Status Playing
+    stats: "idle", //Status Bot <idle, online, dnd , invisible>
+    type: "STREAMING", //Playing Bot <PLAYING, WATCHING , and others>
+    name: "Join My Supper Server" //Status Playing
   },
   dash: {
-    secret: "", //SECRET Bot
-    id: "", //ID Bot
-    url: "" //URL
+    secret: "uX8ldTam0DLYEuUkxBta61E2wonUAX3N", //SECRET Bot
+    id: "857693266321342465", //ID Bot
+    url: "https://discord.com/api/oauth2/authorize?client_id=857693266321342465&permissions=8&scope=bot" //URL
   },
   server: {
     id: "", //Server ID
-    invite: "https://discord.gg/3grkbgFCFs" //Server Support
+    invite: "https://discord.gg/vcXP8UrcFJ" //Server Support
   },
   image: {
     welcome:
